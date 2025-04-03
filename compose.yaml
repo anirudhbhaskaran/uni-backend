@@ -1,0 +1,9 @@
+name: universal_devops
+
+networks:
+  main-net:
+    external: false
+
+include:
+  - ./nginx/compose.yaml
+  - ./kong/compose.yaml
